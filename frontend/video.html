@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="video.css">
+    <title>Web de Videos</title>
+</head>
+<body>
+
+    <header class="principal">
+        <div class="principal_logo">
+            <img src="img/3lineas.png" alt="Menú">
+            <h1>Videos <span class="prin_dif">Fake</span></h1>
+        </div>
+
+        <div class="principal_buscador">
+            <input type="search" placeholder="Buscar...">
+        </div>
+
+        <div class="principal_avatar">
+            <span class="perfil_avatar">JA</span>
+        </div>
+    </header>
+
+    <main class="layout">
+
+        <div class="columna_principal">
+            <section id="reproductor" class="reproductor"></section>
+
+            <section class="comentarios">
+                <h2>Comentarios...</h2>
+                <ul id="lista_comentarios" class="lista_comentarios"></ul>
+            </section>
+        </div>
+
+        <aside class="recomendaciones">
+            <h2 class="recomendaciones__titulo">Recomendados</h2>
+            <div id="recomendados" class="recomendaciones__lista"></div>
+        </aside>
+
+    </main>
+
+    <script src="video.js"></script>
+</body>
+</html>
